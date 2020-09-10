@@ -44,4 +44,3 @@ btn2.addEventListener('click', () => {
     navRight();
 });
 
-

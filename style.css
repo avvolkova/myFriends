@@ -1,7 +1,6 @@
-@font-face {
-    font-weight: 400;
-    font-family: "Open Sans";
-    src: url("fonts/opensans.woff") format("woff");
+body {
+    font-family: 'Rowdies', cursive;
+    background-image: url("img/background.jpg");
 }
 
 section {
@@ -14,6 +13,7 @@ h1 {
     margin-bottom: 40px;
     font-size: 3em;
     text-align: center;
+    color: white;
 }
 .btn-1 {
     width: 52px;
@@ -38,12 +38,15 @@ h1 {
 }
 
 .slider-slides img {
+    transform: rotate(7deg);
+
 }
 
 .slider-slides {
     width: 200%;
     transition: transform 0.5s ease;
     position: relative;
+
 }
 
 .frame {
@@ -102,5 +105,4 @@ h1 {
 
 .keep-place {
     transform: translate(0px);
-}
 }
